@@ -26,7 +26,7 @@ const SocialLnk = () => {
         <div className="social-link_text">
           <h1>Jessica Randall</h1>
           <h2>London, United Kingdom</h2>
-          <p>"Front-end developer and avid reader."</p>
+          <p>&quot;Front-end developer and avid reader.&quot;</p>
         </div>
       </div>
 
