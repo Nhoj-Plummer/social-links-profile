@@ -3,6 +3,20 @@ import Image from "next/image";
 import ProfilePic from "/public/avatar-jessica.jpeg";
 
 const SocialLnk = () => {
+  interface Link {
+    id: number;
+    name: string;
+    link: string;
+  }
+
+  const links: Link[] = [
+    { id: 1, name: "Github", link: "" },
+    { id: 1, name: "Github", link: "" },
+    { id: 1, name: "Github", link: "" },
+    { id: 1, name: "Github", link: "" },
+    { id: 1, name: "Github", link: "" },
+  ];
+
   return (
     <div className="social-link-main">
       <div className="social-link_section1">
@@ -16,7 +30,13 @@ const SocialLnk = () => {
         </div>
       </div>
 
-      <div className="social-link_links"></div>
+      <div className="social-link_links">
+        {links.map((item) => (
+          <a className="social-link_links-item" key={item.id} href={item.link}>
+            <h2>{item.name}</h2>
+          </a>
+        ))}
+      </div>
     </div>
   );
 };
