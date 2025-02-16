@@ -26,7 +26,6 @@ body {
   background-color: var(--grey-900);
   color: var(--white);
   line-height: 1.5;
-  align-content: center;
   border: solid 1px blue;
 }
 

@@ -1,3 +1,6 @@
 .social-link-main {
   border: solid 1px red;
+  margin: auto;
+  width: 350px;
+  height: 500px;
 }
