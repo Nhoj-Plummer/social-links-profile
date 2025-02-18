@@ -10,11 +10,11 @@ const SocialLnk = () => {
   }
 
   const links: Link[] = [
-    { id: 1, name: "Github", link: "" },
-    { id: 2, name: "Frontend Mentor", link: "" },
-    { id: 3, name: "LinkedIn", link: "" },
-    { id: 4, name: "Twitter", link: "" },
-    { id: 5, name: "Instagram", link: "" },
+    { id: 1, name: "Github", link: "https://github.com/" },
+    { id: 2, name: "Frontend Mentor", link: "https://www.frontendmentor.io/" },
+    { id: 3, name: "LinkedIn", link: "https://www.linkedin.com/" },
+    { id: 4, name: "Twitter", link: "https://twitter.com/" },
+    { id: 5, name: "Instagram", link: "https://www.instagram.com/" },
   ];
 
   return (
