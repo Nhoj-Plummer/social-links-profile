@@ -1,6 +1,72 @@
 .social-link-main {
-  border: solid 1px red;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
   margin: auto;
   width: 350px;
-  height: 500px;
+  text-align: center;
+  align-content: center;
+  gap: 30px;
+  background-color: var(--grey-800);
+  border-radius: 10px;
+}
+
+.social-link_image {
+  width: auto;
+  margin: auto;
+  width: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.social-link_image img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.social-link_text {
+  margin-top: 20px;
+}
+
+.social-link_text h1 {
+  font-size: 24px;
+  font-family: var(--font-family);
+}
+
+.social-link_text h2 {
+  font-size: var(--font-size-body);
+  color: var(--green);
+}
+
+.social-link_text p {
+  color: var(--white);
+  margin-top: 10px;
+}
+
+.social-link_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-link_links a {
+  color: var(--white);
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: var(--grey-700);
+}
+
+/* ✅ Hover effect */
+.social-link_links a:hover {
+  background-color: var(--green);
+  color: var(--grey-800);
+}
+
+/* Ensure text inside links uses the correct font size */
+.social-link_links h2 {
+  font-size: var(--font-size-body);
 }
