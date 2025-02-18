@@ -11,10 +11,10 @@ const SocialLnk = () => {
 
   const links: Link[] = [
     { id: 1, name: "Github", link: "" },
-    { id: 1, name: "Github", link: "" },
-    { id: 1, name: "Github", link: "" },
-    { id: 1, name: "Github", link: "" },
-    { id: 1, name: "Github", link: "" },
+    { id: 2, name: "Github", link: "" },
+    { id: 3, name: "Github", link: "" },
+    { id: 4, name: "Github", link: "" },
+    { id: 5, name: "Github", link: "" },
   ];
 
   return (

@@ -1,6 +1,43 @@
 .social-link-main {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
   border: solid 1px red;
   margin: auto;
   width: 350px;
-  height: 500px;
+  text-align: center;
+  align-content: center;
+  font-size: var(--font-size-body);
+  font-family: var(--font-family);
+}
+
+.social-link_image {
+  width: auto;
+  margin: auto;
+  width: 125px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
+.social-link_image img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.social-link_text {
+  border: 1px solid blue;
+
+  margin-top: 20px;
+}
+
+.social-link_text h1 {
+  font-family: var(--font-family);
+}
+
+.social-link_text h2 {
+  font-size: var(--font-size-body);
+  color: var(--green);
 }
