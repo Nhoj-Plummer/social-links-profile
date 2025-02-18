@@ -8,8 +8,10 @@
   text-align: center;
   align-content: center;
   gap: 30px;
+  background-color: var(--grey-800);
   font-size: var(--font-size-body);
   font-family: var(--font-family);
+  border-radius: 10px;
 }
 
 .social-link_image {
@@ -60,4 +62,11 @@
   height: 50px;
   line-height: 50px;
   text-decoration: none;
+  border-radius: 5px;
+
+  background-color: var(--grey-700);
+}
+
+.social-link_links h2 {
+  font-size: var(--font-size-body);
 }
