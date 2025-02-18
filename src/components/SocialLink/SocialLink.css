@@ -7,6 +7,7 @@
   width: 350px;
   text-align: center;
   align-content: center;
+  gap: 30px;
   font-size: var(--font-size-body);
   font-family: var(--font-family);
 }
@@ -29,15 +30,34 @@
 
 .social-link_text {
   border: 1px solid blue;
-
   margin-top: 20px;
 }
 
 .social-link_text h1 {
+  font-size: 24px;
   font-family: var(--font-family);
 }
 
 .social-link_text h2 {
   font-size: var(--font-size-body);
   color: var(--green);
+}
+
+.social-link_text p {
+  margin-top: 10px;
+}
+
+.social-link_links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid white;
+}
+
+.social-link_links a {
+  border: 1px solid red;
+  color: var(--white);
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
 }
